@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #fff;
+    --text: #212121;
+    --btn-bg: #eee;
+    --btn-text: #212121;
+}
+
+.dark-mode {
+    --bg: #36454F;
+    --text: #212121;
+    --btn-bg: #333;
+    --btn-text: #eee;
+}
+
+.app.light-mode {
+    --bg: #f9f9f9;
+    --text: #212121;
+}
+
+.app.dark-mode {
+    --bg: #36454F;
+    --text: #eee;
+}
+
+.app {
+    background-color: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+button {
+    color: var(--btn-text);
+}

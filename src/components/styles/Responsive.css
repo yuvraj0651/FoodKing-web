@@ -1,0 +1,140 @@
+@media screen and (min-width: 475px) {
+    .actions-section__right {
+        margin-top: 0 !important;
+    }
+
+    .actions-block {
+        justify-content: center !important;
+        gap: 1rem 4rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .breadcrumb-section__banner {
+        padding: 4.5rem 1rem;
+    }
+
+    .breadcrumb-section__content h1 {
+        font-size: 2.3rem !important;
+    }
+
+    .breadcrumb-subtext span {
+        font-size: 1rem;
+    }
+
+    .actions-section__right {
+        margin-top: 0 !important;
+    }
+
+    .actions-block {
+        justify-content: space-between !important;
+    }
+
+    .product-section__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+
+    .action__text {
+        display: block !important;
+    }
+
+    .header-theme__toggler button span {
+        display: block !important;
+    }
+
+    .autocomplete-dropdown{
+        max-width: 98% !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .breadcrumb-section__content h1 {
+        font-size: 2.6rem !important;
+    }
+
+    .breadcrumb-subtext span {
+        font-size: 1.2rem;
+    }
+
+    .custom-action-span {
+        font-size: 1rem !important;
+    }
+
+    .product-section__inner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.7rem;
+    }
+
+    .header-section__logo {
+        max-width: 9.5rem !important;
+        width: 100% !important;
+    }
+
+    .header-cart__action {
+        font-size: 1.1rem !important;
+    }
+
+    /* .food-page__section {
+        padding-top: 45px !important;
+    } */
+
+    .total-price {
+        font-size: 1rem !important;
+    }
+
+    .section-padding {
+        padding: 30px !important;
+    }
+
+    .header-theme__toggler button span {
+        display: block !important;
+    }
+
+    .header-auth__block button span {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .breadcrumb-section__content h1 {
+        font-size: 2.8rem !important;
+    }
+
+    .breadcrumb-subtext span {
+        font-size: 1.3rem;
+    }
+
+    .custom-action-span {
+        font-size: 1.2rem !important;
+    }
+
+    .product-section__inner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 1.9rem;
+    }
+
+    .header-section__logo {
+        max-width: 10.5rem !important;
+        width: 100% !important;
+    }
+
+    .header-cart__action {
+        font-size: 1.2rem !important;
+    }
+
+    .total-price {
+        font-size: 1rem !important;
+    }
+
+    .section-padding {
+        padding: 30px !important;
+    }
+
+    .header-theme__toggler button span {
+        display: block !important;
+    }
+}

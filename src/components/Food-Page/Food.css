@@ -1,0 +1,42 @@
+/* .food-page__section{
+    padding-top: 55px;
+} */
+
+.breadcrumb-section__banner {
+    background-image: url("../../assets/Banner/breadcrumb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 3.4rem 1rem;
+}
+
+.breadcrumb-section__content h1 {
+    font-family: var(--barlow-font);
+    color: #fff;
+    font-weight: var(--fw-semi-bold);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.breadcrumb-subtext {
+    color: red;
+    font-family: var(--barlow-font);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.breadcrumb-subtext span{
+    font-weight: var(--fw-light);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}

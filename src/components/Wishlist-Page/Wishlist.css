@@ -1,0 +1,98 @@
+.wishlist-section table {
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #ddd;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    border-radius: 7px;
+    margin-bottom: 1.4rem;
+    margin-top: 3rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.wishlist-section table img {
+    max-width: 8rem;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.wishlist-section table th,
+td {
+    text-align: center;
+}
+
+.wishlist-section table th {
+    font-family: var(--raleway-font);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 0.7em 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.wishlist-section table td {
+    font-family: var(--raleway-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.wishlist-section table .product-quantity {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.wishlist-section table .product-quantity .product-qty {
+    font-family: var(--raleway-font);
+    font-size: 1.5rem;
+    padding: 0.15em 0.5em;
+    font-weight: 500;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.wishlist-section table .product-quantity .qty-count {
+    font-size: 1.2rem;
+}
+
+.wishlist-section .product-actions__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+}
+
+.wishlist-section .action_btn {
+    font-family: var(--raleway-font);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.remove__btn {
+    background-color: crimson;
+}
+
+.add__btn {
+    background-color: green;
+}
+
+.increase-qty,
+.decrease-qty {
+    background-color: darkorange;
+    color: #fff;
+}

@@ -1,0 +1,52 @@
+.section-padding{
+    padding: 30px 10px;
+}
+
+.actions-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.custom-actions{
+    font-family: var(--barlow-font);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.action-icon{
+    /* color: var(--actions-color); */
+    color: #212121;
+}
+
+.custom-action-span{
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    font-weight: var(--fw-semi-bold);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.actions-section__left , .actions-section__right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.actions-section__right{
+    margin-top: .7rem;
+}
+
+.actions__sort select{
+    font-family: var(--barlow-font);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 0.3em 0.7em;
+    border-radius: 5px;
+}

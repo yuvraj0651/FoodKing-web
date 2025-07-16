@@ -1,0 +1,18 @@
+.pagination {
+    text-align: center;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.pagination button {
+    font-family: var(--raleway-font);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
