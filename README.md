@@ -1,17 +1,30 @@
-<<<<<<< HEAD
-# React + Vite
+# 🍽️ FoodKing — Web UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3 align="center">A modern and responsive food ordering website built with React.js and Tailwind CSS, focusing on a clean UI and interactive user experience.</h3>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
+**FoodKing** is a frontend UI project for a food ordering platform, designed using **React.js** and **Tailwind CSS** with an emphasis on **fast performance, responsiveness, and polished visuals**. The goal of this project is to simulate a real‑world frontend implementation of a food delivery service layout with intuitive navigation and engaging UI.
 
-## Expanding the ESLint configuration
+This project demonstrates:
+- Efficient component‑based architecture
+- Reusable UI elements
+- Responsive design for all screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# FoodKing-web
- FoodKing – A food ordering website built with HTML, CSS, JavaScript &amp; ReactJS. Includes cart functionality with full CRUD operations for adding, updating, and removing food items.
->>>>>>> 785d4b3ade871690163fc06dc43e7c83fa8a2f19
+---
+
+## 🧠 Features
+- 🍲 Responsive modern layout
+- 📱 Mobile & desktop optimized UI
+- ⚡ Smooth navigation and interactive interface
+- 📦 Modular React component structure
+- 🎨 Tailwind CSS for utility‑first styling
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS, HTML5, CSS3
+- **Languages:** JavaScript (ES6+)
+- **Tools:** Git, GitHub
