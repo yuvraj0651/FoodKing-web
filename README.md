@@ -33,3 +33,13 @@ This project demonstrates:
 - **Styling:** Tailwind CSS, HTML5, CSS3
 - **Languages:** JavaScript (ES6+)
 - **Tools:** Git, GitHub
+
+---
+
+## 🚀 Installation
+
+Clone the repository and run locally:
+
+```bash
+git clone https://github.com/yuvraj0651/FoodKing-web.git
+cd FoodKing-web
